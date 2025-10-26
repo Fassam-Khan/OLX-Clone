@@ -1,0 +1,72 @@
+@import url("/styles/global.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "MyFont";
+    src: url("/fonts/fonts/fonnts.com-Helvetica_Regular.ttf") ;
+}
+body{
+    font-family: "MyFont",sans-serif;
+}
+:root{
+    --main-color:#3a77ff;
+    
+}
+.top-head{
+    background-color: #ebf1ff;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-box{
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.head-box p{
+    font-weight: 600;
+}
+.right-tophead{
+    display: flex;
+    gap: 12px;
+}
+.right-tophead button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.line{
+    background-color: black;
+    height: 2px;
+    width: auto;
+}
+.right-tophead>a>button:hover{
+    cursor: pointer;
+}
+.right-tophead>a>button:hover .line{
+    display: none;
+    transition: all;
+
+}
+#sell{
+   
+}
