@@ -1,0 +1,29 @@
+.login-btn button{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-btn{
+    position: relative;
+    transition: all;
+    cursor: pointer;
+}
+.line{
+    height: 1.5px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: none;
+    bottom: -2px;
+}
+.login-btn:hover .line{
+    display: block;
+}
+.sell-btn{
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+}

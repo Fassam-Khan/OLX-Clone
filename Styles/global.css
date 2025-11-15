@@ -1,0 +1,28 @@
+.wrapper{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+.gap{
+    gap: 6px;
+}
+button{
+    font-family: "myFonts", sans-serif;
+
+}
+.justify-between{
+    justify-content: space-between;
+}
+.center{
+    align-items: center;
+}

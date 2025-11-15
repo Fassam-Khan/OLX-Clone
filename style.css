@@ -1,0 +1,39 @@
+@import url('/Styles/global.css');
+@import url('/Styles/ui.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'myFonts';
+    src: url('/Fonts/Geomanist-Regular.otf');
+}
+body{
+    font-family: "myFonts", sans-serif;
+}
+:root{
+    --primary-color: #ebf1ff;
+
+}
+.top-head{
+    background-color: var(--primary-color);
+  
+    height: 60px;
+}
+.logo-div{
+    background-color: white;
+    padding: 8px;
+    margin-top: 12px;
+    width: 70px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.logo-div img{
+    width: 100%;
+}
+.top-head-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
